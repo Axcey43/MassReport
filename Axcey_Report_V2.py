@@ -11,8 +11,8 @@ sent = 0
 
 
 class Axcey:
-    os.system('[Axcey Reporter] - Menu')
     def Main(self):
+        os.system('[Axcey Reporter] - Menu')
         print(f'''
 {b+Fore.BLUE}
        ▄████████ ▀████    ▐████▀  ▄████████    ▄████████ ▄██   ▄   
