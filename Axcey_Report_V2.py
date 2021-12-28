@@ -2,6 +2,7 @@
 
 import colorama
 import requests
+import os
 
 from colorama import Fore, init, Style
 
@@ -10,6 +11,7 @@ sent = 0
 
 
 class Axcey:
+    os.system('[Axcey Reporter] - Menu')
     def Main(self):
         print(f'''
 {b+Fore.BLUE}
@@ -41,6 +43,7 @@ class Axcey:
           print(f'[{Fore.RED}!{Fore.RESET}] {Fore.RED}Invalid Token{Fore.RESET}')
 
     def MemberReport(self):
+        os.system('[Axcey Reporter] - Member Report')
         print(f'''
 {b+Fore.BLUE}Axcey Reporter{Fore.RESET} {b+Fore.RED}[Member Report]{Fore.RESET}
 [{b+Fore.BLUE} {1} {Fore.RESET}] Illegal Content        
@@ -85,6 +88,7 @@ class Axcey:
                 )
 
     def GuildReport(self):
+        os.system('[Axcey Reporter] - Guild Report')
         print(f'''
 {b+Fore.BLUE}Axcey Reporter{Fore.RESET} {b+Fore.RED}[Guild Report]{Fore.RESET}
 [{b+Fore.BLUE} {1} {Fore.RESET}] Illegal Content        
